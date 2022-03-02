@@ -1,0 +1,8 @@
+[package]
+name = "xors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+halo2 = { git = "https://github.com/zcash/halo2", rev = "18e13b1d093113c93387d38e188d7dc85c64e1ec" }
+pasta_curves = "0.2.1"
